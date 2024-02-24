@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cn4PU2lrRomvewSMoNYxGyBJ6vuhKOGR7zBp/mvq5Yvdl/4YEQch0jb++OLiaJDw2MvOc9/Bfs3R+siP4JrQVQ==",
+  "dgSpecHash": "ciJnenGLaKxETwG4OcuqR3TvxKQPy7isZHqBUYuV21pqji5fnOg3eODWvlSSLxBLwvJ3W2AFUmsfO7ma1kUQfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Archana\\csharpExperiments\\Exp02-CSharpPattern\\Exp02-CSharpPattern.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\SEC\\Documents\\csex2\\Exp02-CSharpPattern\\Exp02-CSharpPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SEC\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\SEC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\SEC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\SEC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
