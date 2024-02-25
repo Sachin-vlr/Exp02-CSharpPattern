@@ -1,34 +1,26 @@
-﻿using System;  // Importing necessary namespace
+﻿using System;
 
-public class Exercise33  // Declaration of the Exercise33 class
+class PascalTriangle
 {
-    public static void Main()  // Main method, entry point of the program
+    public static void Main()
     {
-        int no_row, c = 1, blk, i, j;  // Declaration of variables
+        Console.Write("Enter the number of rows of Pascal Triangle: ");
+        int rows = int.Parse(Console.ReadLine());
 
-        Console.Write("\n\n");  // Displaying new lines
-        Console.Write("Display the Pascal's triangle:\n");  // Displaying the purpose of the program
-        Console.Write("--------------------------------\n\n");  // Displaying a separator and new lines
-
-        Console.Write("Input number of rows: ");  // Prompting the user to input the number of rows
-        no_row = Convert.ToInt32(Console.ReadLine());  // Reading the number entered by the user
-
-        // Loop to create and display Pascal's triangle
-        for (i = 0; i < no_row; i++)
+        for (int i = 0; i < rows; i++)
         {
-            for (blk = 1; blk <= no_row - i; blk++)
-                Console.Write("  ");  // Adding spaces for formatting the triangle
-
-            for (j = 0; j <= i; j++)
+            for (int space = 0; space < rows - i; space++)
             {
-                if (j == 0 || i == 0)
-                    c = 1;  // First and last elements in a row of Pascal's triangle are always 1
-                else
-                    c = c * (i - j + 1) / j;  // Calculating binomial coefficient
-
-                Console.Write("{0}   ", c);  // Displaying the current value of c in the triangle
+                Console.Write(" ");
             }
-            Console.Write("\n");  // Moving to the next line for the new row
+
+            int num = 1;
+            for (int j = 0; j <= i; j++)
+            {
+                Console.Write(num + " ");
+                num = num * (i - j) / (j + 1);
+            }
+            Console.WriteLine();
         }
     }
 }
