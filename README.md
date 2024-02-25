@@ -22,7 +22,7 @@ Developed by: SACHIN.C
 
 Register no: 212222230125
 
-```python
+```c#
 using System;
 
 class PascalTriangle
@@ -30,7 +30,7 @@ class PascalTriangle
     public static void Main()
     {
         Console.Write("Enter the number of rows of Pascal Triangle: ");
-        int rows = int.Parse(Console.ReadLine());
+        int rows = Convert.ToInt32(Console.ReadLine());
 
         for (int i = 0; i < rows; i++)
         {
