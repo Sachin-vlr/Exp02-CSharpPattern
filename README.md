@@ -1,7 +1,6 @@
 # Exp02-CSharpPattern
 
 ## Aim:
-
 To write a C# program for a pascal's triangle.
 
 ## Algorithm:
@@ -21,7 +20,6 @@ To write a C# program for a pascal's triangle.
 Developed by: SACHIN.C
 
 Register no: 212222230125
-
 ```c#
 using System;
 
@@ -50,11 +48,8 @@ class PascalTriangle
     }
 }
 ```
-
 ## Output:
-
 ![image](https://github.com/Sachin-vlr/Exp02-CSharpPattern/assets/113497666/bf714fd0-ba0e-4595-8d1d-3390c6e58203)
-
 
 ## Result:
 Thus the C# program to print the pascal's triangle is executed successfully.
